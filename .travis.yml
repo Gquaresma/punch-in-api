@@ -4,6 +4,6 @@ jdk: oraclejdk11
 addons:
   apt:
     packages:
-      - oracle-java11-installer
+      - oracle-java-installer
 before_install:
   - chmod +x mvnw
